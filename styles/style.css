@@ -1,0 +1,112 @@
+body{
+    margin: 50px 140px;
+}
+header{
+    background-image: url(../images/Banner\ Image.png);
+    background-size:cover;
+    /* padding: 233px 344px; */
+    text-align: center;
+    border-radius: 20px;
+    /* width: 100%;
+    height: auto;
+    object-fit: scale-down; */
+}
+header h3{
+    padding-top: 144px;
+    font-size: 30px ;
+    color: #FFF;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+header h1{
+    color: white;
+    padding-bottom: 177px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    /* line-height: 95px; 131.944% */
+}
+.sec1 h1, h4{
+    color: red;
+}
+.sec1{
+    text-align: center;
+}
+.sec1 h1{
+    color: #F00;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sec1 h4{
+    color: #F00;
+
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sec1 h2{
+    color: #070211;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.sec2{
+    background-image: url(../images/Vectorrr.png);
+    background-size:cover;
+    margin-top: 120px;
+    padding: 126px;
+    padding-right: 497px;
+    border-radius: 20px;
+}
+
+.sec2 h2{
+    color: #FFF;
+
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+    }
+
+.sec2 h6{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.sec2 a{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
