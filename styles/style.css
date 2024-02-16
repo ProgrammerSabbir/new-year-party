@@ -234,7 +234,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 160% */
 padding: 0 130px;
-padding-bottom: ;
+padding-bottom: 68px;
 }
 
 .sec6 h4{
@@ -263,3 +263,54 @@ font-weight: 400;
 line-height: 32px; /* 160% */
 width: 896px;
 }
+
+.sec7{
+
+}
+.sec8{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: 120px 0;
+    padding: 120px 212px;
+}
+.sec8 h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.sec8 p{
+    
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.sec8 form{
+    display: flex;
+    justify-content: center;
+}
+.sec8 input[type="email"]{
+    padding: 10px 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+.sec8 button {
+    background-color: #f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
