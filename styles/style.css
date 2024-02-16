@@ -4,12 +4,9 @@ body{
 header{
     background-image: url(../images/Banner\ Image.png);
     background-size:cover;
-    /* padding: 233px 344px; */
     text-align: center;
     border-radius: 20px;
-    /* width: 100%;
-    height: auto;
-    object-fit: scale-down; */
+
 }
 header h3{
     padding-top: 144px;
@@ -31,7 +28,6 @@ header h1{
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    /* line-height: 95px; 131.944% */
 }
 .sec1 h1, h4{
     color: red;
@@ -110,7 +106,7 @@ header h1{
     text-transform: uppercase;
 }
 
-/* shared class */
+/* shared style */
 .red{
     color: #F00;
 }
@@ -157,34 +153,31 @@ header h1{
 
 .div1 h4{
     color: #F00;
-/* text-align: center; */
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .div1 h2{
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
 }
 .div1 p{
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-width: 393px;
-}
-.div2{
-  
-}
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 393px;
+    }
+
 .div3 h2{
     color: #F00;
     font-family: Inter;
@@ -197,11 +190,11 @@ width: 393px;
 .div3 p{
     width: 276px;
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
 }
 
 .sec5{
@@ -209,64 +202,69 @@ line-height: 32px; /* 160% */
 }
 .sec5 h4{
     color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-padding-top: 120px;
-}
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 120px;
+    }
 .sec5 h1{
     color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 .sec5 p{
     /* width: 1068px; */
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 32px; /* 160% */
-padding: 0 130px;
-padding-bottom: 68px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    padding: 0 130px;
+    padding-bottom: 68px;
 }
 
 .sec6 h4{
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .sec6 h2{
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-}
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    }
 .sec6 p{
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-width: 896px;
-}
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
+    }
 
-.sec7{
-
+.hv{
+    padding: 5px;
 }
+.hv:hover {
+        background-color: #2980b9;
+        border: #070211;
+      }
+
 .sec8{
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -287,12 +285,12 @@ width: 896px;
 .sec8 p{
     
     color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
 }
 .sec8 form{
     display: flex;
@@ -319,11 +317,11 @@ line-height: 32px; /* 160% */
     margin: 0;
     padding: 50px;
     color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px; /* 166.667% */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 166.667% */
 
   }
   .sec9{
