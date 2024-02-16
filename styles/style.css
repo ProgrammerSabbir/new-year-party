@@ -354,3 +354,6 @@ line-height: 40px; /* 166.667% */
     color: #FFF;
     text-decoration: none;
   }
+  hr{
+    width: 1320px;
+  }
